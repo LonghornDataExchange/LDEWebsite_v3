@@ -51,3 +51,14 @@ body {
     overflow-x: hidden;
   }
 }
+.right-sidebar-about-text{
+  font-weight: light;
+}
+.left-nav-l2{
+  font-weight: bold;
+}
+
+.left-nav-l3{
+  font-weight: light;
+  padding-left: 20px !important;
+}
