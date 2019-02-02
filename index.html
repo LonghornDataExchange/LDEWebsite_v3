@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./style/LDEStyle.css">
-
   <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
@@ -17,7 +16,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
@@ -29,7 +28,6 @@
 
 <body>
   <div class="container-fluid p-0" style=" height: 100vh">
-
     <!-- top nav bar -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg bg-white border-bottom border-dark">
       <a class="navbar-brand" href="#">
@@ -38,84 +36,110 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav mr-auto nav-pills">
+        <ul class="nav nav-tabs">
+          <!--Their's
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a href="#" class="font-weight-bold">Recruiting Board</a></li>
+                  <li><a href="#" class="font-weight-bold">Directory</a></li>
+                  <li><a href="#" class="font-weight-bold">Equipment</a></li>
+                </ul>
+              </div>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+					-->
+          <!--Our's-->
+          <li class="nav-item dropdown show">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Explore <b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-3 show">
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#" class="font-weight-bold">Recruiting Board</a></li>
+                    <li><a href="#" class="font-weight-bold">Directory</a></li>
+                    <li><a href="#" class="font-weight-bold">Equipment</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#" class="font-weight-bold">Events</a></li>
+                    <li><a href="#">Banquets</a></li>
+                    <li><a href="#">Caterers</a></li>
+                    <li><a href="#">Socials</a></li>
+                    <li><a href="#">Volunteering</a></li>
+                    <li><a href="#">Speakers, Tours, and Workshops</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#" class="font-weight-bold">Operations</a></li>
+                    <li><a href="#">Corporate Supporters</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Officer Structures</a></li>
+                    <li><a href="#">Tips and Tricks</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </li>
           <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <b class="caret"></b></a>
-              <ul class="dropdown-menu multi-column columns-3">
-		            <div class="row">
-			            <div class="col-sm-4">
-				            <ul class="multi-column-dropdown">
-					            <li><a href="#" class="font-weight-bold">Recruiting Board</a></li>
-					            <li><a href="#" class="font-weight-bold">Directory</a></li>
-					            <li><a href="#" class="font-weight-bold">Equipment</a></li>
-				            </ul>
-			            </div>
-			            <div class="col-sm-4">
-				            <ul class="multi-column-dropdown">
-					            <li><a href="#" class="font-weight-bold">Events</a></li>
-					            <li><a href="#">Banquets</a></li>
-					            <li><a href="#">Caterers</a></li>
-					            <li><a href="#">Socials</a></li>
-					            <li><a href="#">Volunteering</a></li>
-                      <li><a href="#">Speakers, Tours, and Workshops</a></li>
-				            </ul>
-			            </div>
-			            <div class="col-sm-4">
-				            <ul class="multi-column-dropdown">
-					            <li><a href="#" class="font-weight-bold">Operations</a></li>
-					            <li><a href="#">Corporate Supporters</a></li>
-					            <li><a href="#">Technology</a></li>
-					            <li><a href="#">Officer Structures</a></li>
-					            <li><a href="#">Tips and Tricks</a></li>
-				            </ul>
-			            </div>
-		            </div>
-	            </ul>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./explore/index.html">Explore</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contribute <b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-3">
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#" class="font-weight-bold">How to Contribute</a></li>
+                    <li><a href="#" class="font-weight-bold">Why Contribute</a></li>
+                    <li><a href="#" class="font-weight-bold">Documents</a></li>
+                    <li><a href="#" class="font-weight-bold">Current Contribution Status</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contribute/index.html">Contribute</a>
-          </li>
-          <li class="nav-item">
+          <li class="dropdown nav-item">
             <a class="nav-link" href="./about/index.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact/index.html">Contact</a>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Contact <b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-3">
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#" class="font-weight-bold">Contact Us</a></li>
+                    <li><a href="#" class="font-weight-bold">Complete the Directory</a></li>
+                    <li><a href="#" class="font-weight-bold">Join the Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
         </ul>
       </div>
     </nav> <!-- End of Top Navbar -->
-
     <div class="row p-3 mx-auto" style=" background-color: rgb(237,125,49)">
-      <div class="col-12 text-center" >
-        <p class="lead" ><a style=" color: white;" href="./contact/join.html">We're recruiting new members! Click here to apply now!</a>
+      <div class="col-12 text-center">
+        <p class="lead"><a style=" color: white;" href="./contact/join.html">We're recruiting new members! Click here to apply now!</a>
         </p>
       </div>
     </div>
-
     <div class="container-fluid">
-
-
       <div class="row p-5 mx-auto" style="max-width: 1100px">
-
         <!-- Middle Section -->
         <div class="col-12 col-lg-6">
           <div class="row p-0">
             <h1>Longhorn Data Exchange </h1>
-            <p class="lead"> We improve student organizations at UT Austin by delivering insights, options, and reviews to leaders so that they
-              can make well-informed decisions.
-            </p>
-            <p> Running a student organization at UT is hard, as leaders often must make important decisions with little information. We help student
-              organizations by providing them with the information they need to make the right decisions for their situation.
-            </p>
-            <p> The information we provide comes from student organizations here at UT Austin, which we believe provide the best insights into current
-              trends, options, and resources. We actively seek the best experiences from organizations and curate it into useful information which
-              everyone can use. We hope that you find our information helpful and consider contributing your own organization's experiences.
-            </P>
+            <p class="lead"> We improve student organizations at UT Austin by delivering insights, options, and reviews to leaders so that they can make well-informed decisions. </p>
+            <p> Running a student organization at UT is hard, as leaders often must make important decisions with little information. We help student organizations by providing them with the information they need to make the right decisions for their situation. </p>
+            <p> The information we provide comes from student organizations here at UT Austin, which we believe provide the best insights into current trends, options, and resources. We actively seek the best experiences from organizations and curate it into useful information which everyone can use. We hope that you find our information helpful and consider contributing your own organization's experiences. </p>
           </div>
           <div class="row p-0 p-0">
             <div class="col-12 col-md-4 button p-1">
@@ -128,19 +152,18 @@
               <a href="./about/index.html" class="btn btn-outline-secondary btn-block active" role="button" aria-pressed="false">Learn More</a>
             </div>
           </div>
-
         </div>
         <div class="col-12 col-lg-6">
           <div class="text-center">
-            <img class="mx-auto" src='./images/LDELogo.jpg' class="img-fluid" width=450></img>
+            <img class="mx-auto" src="./images/LDELogo.jpg" width="450">
           </div>
         </div>
       </div>
-      </div>
     </div>
-
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
